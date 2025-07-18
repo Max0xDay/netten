@@ -1,0 +1,75 @@
+# Git Configuration
+.git/
+*.git
+
+# Build artifacts
+netten
+*.o
+*.a
+*.so
+*.dylib
+
+# Temporary files
+*~
+*.tmp
+*.temp
+.DS_Store
+Thumbs.db
+
+# Editor files
+*.swp
+*.swo
+*~
+.vscode/
+.idea/
+*.sublime-*
+
+# Backup files
+*.bak
+*.backup
+
+# Distribution packages
+*.tar.gz
+*.tar.bz2
+*.zip
+netten-*/
+
+# Debug files
+*.dSYM/
+core
+core.*
+
+# System files
+.directory
+
+# Log files
+*.log
+
+# IDE files
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# Package manager files
+node_modules/
+package-lock.json
+yarn.lock
+
+# Documentation build files
+docs/_build/
+site/
+
+# Test coverage
+coverage/
+*.gcov
+*.gcda
+*.gcno
+
+# Static analysis
+cppcheck.xml
+*.scan
+
+# Profiling
+gmon.out
+*.prof
