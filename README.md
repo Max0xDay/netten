@@ -1,4 +1,4 @@
-# netten - Network Information Tool
+# netten
 
 A command-line network monitoring tool for Linux systems.
 
@@ -52,20 +52,4 @@ gcc -Wall -Wextra -std=c99 -O2 -s -static -o netten netten.c
 # Manual installation
 gcc -o netten netten.c
 sudo cp netten /usr/local/bin/
-```
-
-## Requirements
-
-- Linux system
-- GCC compiler (for compilation)
-
-## Example Output
-
-```
-$ ./netten interfaces
-Network Interfaces:
-Interface       IP Address           MAC Address        Status    
-----------------------------------------------------------------------
-lo              127.0.0.1           00:00:00:00:00:00  UP        
-eth0            192.168.1.100       aa:bb:cc:dd:ee:ff  UP        
 ```
